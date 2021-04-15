@@ -7,7 +7,7 @@ axios.get("https://simpsons-quotes-api.herokuapp.com/quotes")
             <h3>${quote.character}</h3>
             <img src="${quote.image}" />
             <p>${quote.quote}</p>
-        <article>
+        </article>
     `;
     const myDiv = document.querySelector("#simpson-quote");
     myDiv.innerHTML = myHtml;
