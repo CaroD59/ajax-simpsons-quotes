@@ -12,3 +12,8 @@ axios.get("https://simpsons-quotes-api.herokuapp.com/quotes")
     const myDiv = document.querySelector("#simpson-quote");
     myDiv.innerHTML = myHtml;
 })
+
+
+  document.querySelector('#myButton').addEventListener('click', fetchPokemonJSON);
+
+  fetchPokemonJSON();
